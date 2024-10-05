@@ -1,0 +1,269 @@
+/* Shop.css */
+
+body {
+  background-color: #ffffff8a;
+}
+
+.background-element {
+  background-size: cover; /* Adjust the size to your needs */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  padding: 15px;
+}
+
+.product-list ul {
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Add this to create space between items */
+  column-count: 3; /* This will display the product list in 3 columns */
+  flex: 1;
+}
+
+.product-item {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #ffffffa9;
+  box-shadow: 0 0 5px rgba(55, 10, 236, 0.944);
+  display: flex;
+  flex-direction: column; /* Display product details vertically */
+  
+}
+
+.shop-container {
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.product-list {
+  flex: 1;
+}
+
+.product-item {
+  
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 75px;
+  box-shadow: 0 0 5px rgba(63, 59, 82, 0.944);
+  align-items: center;
+
+}
+
+/* Shop.css */
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Add a margin to control the vertical position */
+}
+
+.checkout-button {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.cart-item {
+  border: 1px solid #e9085a;
+  background-color: #ffffffa9;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* CSS for displaying two products per line */
+.product-list ul {
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Add this to create space between items */
+}
+
+.product-details{
+  /* border: 1px solid #ccc;
+  background-color: #ffffffa9; */
+}
+
+.product-item {
+  
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #ffffffa4;
+  /* box-shadow: 0 0 100px rgba(216, 213, 4, 0.944); */
+  display: flex;
+  flex-direction: column; /* Display product details vertically */
+}
+
+.product-item:hover {
+  background-color: #86858520;
+  /* box-shadow: 0 0 100px rgba(216, 213, 4, 0.944); */
+  
+}
+
+/* CSS for the blue "Add to Cart" button */
+.blue-button {
+  background-color: #007bff; /* Blue color */
+  color: #fff;
+  border: none;
+}
+
+
+h1 {
+      text-align: center;
+      font-size: 36px;
+      /* border: 2px solid #000000; */
+      /* background-color: #5ca0ea; */
+      /* box-shadow: 0 0 70px rgba(8, 0, 255, 0.944); */
+}
+
+
+/* Shop.css */
+
+
+.view-cart-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #ff5100;
+  color: #fff;
+  /* border: 2px solid #ffd501; */
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  /* box-shadow: 0 0 50px rgba(216, 213, 4, 0.944); */
+  width: 150px; /* Set the width to your desired value, for example, 100px */
+  height: 30px;
+    text-align: center; /* Center text horizontally */
+  line-height: 30px; /* Center text vertically */
+  font-size: 28px;
+  align-items: center;
+}
+
+.view-cart-button:hover {
+  background-color: #ffc800;
+  
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Two columns per row */
+  grid-gap: 20px; /* Adjust the gap between products as needed */
+}
+
+/* Shop.css */
+
+.sort-button {
+  width: 20%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  background-color: #46f349;
+  text-align: center;
+}
+
+.sort-button:hover {
+  background-color: #2980b9;
+}
+
+/* Shop.css */
+
+.search-button {
+  width: 10%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  background-color: #ff5bf7;
+  text-align: center;
+}
+
+.search-button:hover {
+  background-color: #219e54;
+}
+
+.product-item {
+  border: 1px solid #ccc; /* Optional: Add a border around each product item */
+  padding: 10px; /* Optional: Add padding to each product item */
+   width: 450px; /* Set the width to your desired value, for example, 100px */
+  height: 600px;
+}
+
+.add-to-cart-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 0 7px rgba(3, 68, 231, 0.944);
+
+}
+
+.add-to-cart-button:hover {
+  background-color: #070707;
+  
+  /* box-shadow: 0 0 50px rgba(3, 68, 231, 0.944); */
+  
+}
+
+input[type="text"] {
+  width: 20%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  background-color: #ffffff;
+  /* text-align: center; */
+  /* box-shadow: 0 0 100px rgba(56, 106, 128, 0.944); */
+}
+
+input[type="text"]:hover {
+  background-color: #ffffff;
+  
+}
+
+/* Select element */
+select {
+  width: 13%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #04c0ff;
+  border-radius: 5px;
+  background-color: #3dc5ee;
+  color: #000000;
+  box-shadow: 0 0 1500px rgba(5, 172, 255, 0.944);
+}
+select:hover {
+  background-color: #00ffaa;
+  
+}
+
+ul.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+li.product-item {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.product-image {
+  width: 300px; /* Set the width to your desired value, for example, 100px */
+  height: 300px; /* Set the height to your desired value, for example, 100px */
+  border-radius: 20px;
+  /* box-shadow: 0 0 50px rgba(243, 250, 47, 0.944); */
+}

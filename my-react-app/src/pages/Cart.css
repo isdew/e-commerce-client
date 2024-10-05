@@ -1,0 +1,105 @@
+/* Cart.css */
+.cart {
+  background-color: #f9df1dd7;
+  width: 300px;
+  border: 1px solid #262526;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.cart-item {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #ffffffa9;
+  box-shadow: 0 0 5px rgba(55, 10, 236, 0.944);
+  display: flex;
+  flex-direction: column; /* Display product details vertically */
+  width: 47%; /* Set the width to fit three items in a row with a small gap */
+}
+
+.back-to-shop-button {
+  background-color: #c8ff00;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(216, 213, 4, 0.944);
+}
+
+.pay-button {
+  background-color: #00f921;
+  color: #000000;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(20, 198, 73, 0.944);
+}
+
+/* Your CSS file */
+.cart-list {
+  list-style-type: none; /* Example styling */
+  padding: 0;
+  margin: 0;
+   border: 2px solid #e9085a;
+   background-color: #d2f087a9;
+   font-size: 24px;
+   
+}
+
+.cart-list li {
+  /* Add styling for list items inside the cart list here */
+}
+
+/* Shop.css */
+
+.cart-heading {
+  font-size: 36px;
+  color: #333; /* Your preferred text color */
+  margin: 10px 0; /* Add margins as needed */
+  text-align: center;
+}
+
+/* Shop.css */
+
+.remove-button {
+  background-color: #c0392b;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.remove-button:hover {
+  background-color: #a53123;
+}
+
+/* Shop.css */
+
+.checkout-button {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  
+}
+
+.checkout-button:hover {
+  background-color: #27ae60;
+}
+
+/* Shop.css */
+
+.total-price {
+  font-size: 18px;
+  color: #333; /* Your preferred text color */
+  margin: 10px 0; /* Add margins as needed */
+}
